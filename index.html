@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Шахматы вслепую</title>
+    <link href="start.css">
+    <script src='start.js'></script>
+</head>
+
+<body>
+    <nav>
+        <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Идея проекта</div>
+        <div class='nav-item' onclick="document.getElementById('practice').scrollIntoView({behavior: 'smooth'});">Упражнение №1</div>
+    </nav>
+
+    <header>
+        <h1>Шахматы вслепую</h1>
+    </header>
+
+    <main>
+        <section class='section1' id='about'>
+            <h1>Идея проекта</h1>
+            <div class='about-wrapper'>
+                <h1>Почему шахматы вслепую?</h1>
+                <p>Шахматы вслепую – это когда один или оба игрока на доску не смотрят. Это упражнение невероятно развивает мышление, память, концентрацию, умение мыслить нестандартно, да и любовь к шахматам!</p>
+                <h2>В чем суть проекта?</h2>
+                <p>Этот сайт предназначен для уже продвинутых игроков. Суть заключается в упражнениях, подготавливающих к игре вслепую. Первое развивает умение видеть доску целиком, знание шахматных координат. Второе – память и внимание.</p>
+                <h2>Что впереди?</h2>
+                <p>В 1924 году в Москве прошел турнир по шахматам вслепую. В этом турнире Симеон Теньолд, слепой шахматист, сыграл одновременно с 12 противниками и <b>победил во всех партиях.</b><br><i>Сможешь так же?</i></p>
+            </div>
+        </section>
+        
+        <section class='section2' id='practice'> 
+            <h1>Упражнение №1</h1>
+            <div class='practice-wrapper'>
+            <table>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="vert">
+                <div id="timer">10</div>
+                Нажми на доске на координату:
+                <div id="place">a1</div>
+            </div>
+            </div>
+            <h2>Результат: <span id="result">0</span></h2>
+        </section>
+
+        <section class='section3' id='practice2'>
+            <h1>Упражнение №2</h1>
+            <p>Твоя задача съесть Конем Ферзя противника. Тебе даны начальные координаты фигур. Ферзь стоит на месте. Просчитай самый эффективный маршрут, свои ходы записывай в поле для ввода. <p>
+            <div class='about-wrapper'>
+                <h3>Координата Ферзя: <span id="ferz">h8</span></h3>
+                <h3>Координата Коня: <span id="kon">d1</span></h3>
+            </div>
+        </section>
+
+        </section>
+    </main>
+</body>
+</html>
